@@ -39,10 +39,10 @@ The Password Generator app allows users to generate random passwords based on sp
     npm install -g react-native-cli
     ```
 
-5. Install Formik and Yup package:
+5. Install Formik, Yup, and react-native-bouncyCheckbox package:
 
     ```bash
-    npm install formik yup
+    npm install formik yup react-native-bouncycheckbox
     ```
 
 ## Usage
