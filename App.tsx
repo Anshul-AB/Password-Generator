@@ -9,7 +9,7 @@ import { Formik } from 'formik';
 const PasswordSchema = Yup.object().shape({
     passwordLength: Yup.number()
         .min(4, 'Minimum 4 characters required')
-        .max(10, 'Maximum 10 characters allowed')
+        .max(16, 'Maximum 10 characters allowed')
         .required('Length is required')
 })
 
